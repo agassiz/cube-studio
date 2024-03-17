@@ -54,7 +54,7 @@
     "session_num": 0,
     "chat_type": "text",
     "hello": "这里是cube-studio开源社区，请问有什么可以帮你的么？<a target=\"_blank\" href=\"https://github.com/tencentmusic/cube-studio/wiki\">wiki</a>",
-    "tips": "cube studio支持什么版本的k8s系统？\n如何部署cube studio平台？",
+    "tips": "dao quan支持什么版本的k8s系统？\n如何部署dao quan平台？",
     "knowledge": {
         "type": "file",
         "file": "/mnt/admin/pipeline/example/gpt/cube-studio.csv",
