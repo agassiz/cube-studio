@@ -102,7 +102,6 @@ const translation = {
   "登录": "login",
   "平台主要功能": "Main functions",
   "新建流水线": "create pipeline",
-  "新手视频": "Beginner’s video",
   "新人制作一个pipeline": "Create a pipeline for new users.",
   "流水线": "pipeline",
   "我的": "mine",
