@@ -1,4 +1,4 @@
-# docker build -t agassiz/cube-kubeflow-dashboard-frontend:2024.03.21 -f install/docker/dockerFrontend/Dockerfile .
+# docker build -t agassiz/cube-kubeflow-dashboard-frontend:2024.03.22 -f install/docker/dockerFrontend/Dockerfile .
 
 FROM nginx
 
