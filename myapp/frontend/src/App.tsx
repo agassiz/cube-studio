@@ -339,7 +339,7 @@ const AppWrapper = (props: IProps) => {
         isShowNav === 'false' ? null : <div className="navbar">
           <div className="d-f ac pl48 h100">
             <div className="d-f ac">
-              <div className="cp pr16" style={{ width: 'auto' }} onClick={() => {
+              <div className="cp pr16" style={{ width: '160px' }} onClick={() => {
                 navigate('/', { replace: true })
               }}>
                 <span color='black' >广宽数据服务平台</span>
