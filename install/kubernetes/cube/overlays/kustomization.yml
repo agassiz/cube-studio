@@ -36,10 +36,10 @@ resources:
 images:
 - name: agassiz/cube-kubeflow-dashboard
   newName: agassiz/cube-kubeflow-dashboard
-  newTag: 2024.03.20
+  newTag: 2024.03.21
 - name: agassiz/cube-kubeflow-dashboard-frontend
   newName: agassiz/cube-kubeflow-dashboard-frontend
-  newTag: 2024.03.20
+  newTag: 2024.03.21
 
 
 # kustomize build . | kubectl apply -f -
