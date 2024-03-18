@@ -34,11 +34,11 @@ resources:
   - ../base
 
 images:
-- name: ccr.ccs.tencentyun.com/cube-studio/kubeflow-dashboard
-  newName: ccr.ccs.tencentyun.com/cube-studio/kubeflow-dashboard
+- name: agassiz/cube-kubeflow-dashboard
+  newName: agassiz/cube-kubeflow-dashboard
   newTag: 2024.03.18
-- name: ccr.ccs.tencentyun.com/cube-studio/kubeflow-dashboard-frontend
-  newName: ccr.ccs.tencentyun.com/cube-studio/kubeflow-dashboard-frontend
+- name: agassiz/cube-kubeflow-dashboard-frontend
+  newName: agassiz/cube-kubeflow-dashboard-frontend
   newTag: 2024.03.18
 
 

@@ -1,4 +1,4 @@
-# docker build -t ccr.ccs.tencentyun.com/cube-studio/kubeflow-dashboard-frontend:2024.03.18 -f install/docker/dockerFrontend/Dockerfile .
+# docker build -t agassiz/cube-kubeflow-dashboard-frontend:2024.03.18 -f install/docker/dockerFrontend/Dockerfile .
 
 FROM nginx
 
