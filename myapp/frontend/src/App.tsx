@@ -21,6 +21,7 @@ import globalConfig from './global.config'
 import i18nEn from './images/i18nEn.svg';
 
 import { useTranslation, Trans, } from 'react-i18next';
+import { Font } from 'three';
 const userName = Cookies.get('myapp_username')
 
 const RouterConfig = (config: RouteObject[]) => {
@@ -341,7 +342,7 @@ const AppWrapper = (props: IProps) => {
               <div className="cp pr16" style={{ width: 'auto' }} onClick={() => {
                 navigate('/', { replace: true })
               }}>
-                <img style={{ height: 42 }} src={globalConfig.appLogo.default} alt="img" />
+                <span color='black' >广宽数据服务平台</span>
               </div>
 
               {
