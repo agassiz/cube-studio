@@ -23,16 +23,16 @@ mysql> flush privileges;
 docker build -t agassiz/cube-kubeflow-dashboard:base-python3.9 -f install/docker/Dockerfile-base .
 
 使用基础镜像构建生产镜像
-docker build -t agassiz/cube-kubeflow-dashboard:2024.03.22 -f install/docker/Dockerfile .
+docker build -t agassiz/cube-kubeflow-dashboard:2024.03.23 -f install/docker/Dockerfile .
 
 构建frontend镜像
-docker build -t agassiz/cube-kubeflow-dashboard-frontend:2024.03.22 -f install/docker/dockerFrontend/Dockerfile .
+docker build -t agassiz/cube-kubeflow-dashboard-frontend:2024.03.23 -f install/docker/dockerFrontend/Dockerfile .
 ```
 
 ## 镜像拉取(如果你不参与开发可以直接使用线上镜像)
 ```
-docker pull agassiz/cube-kubeflow-dashboard:2024.03.22
-docker pull agassiz/cube-kubeflow-dashboard-frontend:2024.03.22
+docker pull agassiz/cube-kubeflow-dashboard:2024.03.23
+docker pull agassiz/cube-kubeflow-dashboard-frontend:2024.03.23
 ```
 
 ## deploy myapp (docker-compose)

@@ -1,4 +1,4 @@
-# docker build -t agassiz/cube-kubeflow-dashboard:2024.03.22 -f install/docker/Dockerfile .
+# docker build -t agassiz/cube-kubeflow-dashboard:2024.03.23 -f install/docker/Dockerfile .
 
 FROM ccr.ccs.tencentyun.com/cube-studio/kubeflow-dashboard:base-python3.9-amd64-20231001
 

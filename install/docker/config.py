@@ -64,7 +64,7 @@ ENABLE_PROXY_FIX = False
 # GLOBALS FOR APP Builder
 # ------------------------------
 # 应用名
-APP_NAME = "Cube-Studio"
+APP_NAME = "广宽数据服务平台"
 
 # 图标
 APP_ICON = "/static/assets/images/myapp-logo.png"
@@ -566,9 +566,9 @@ class CeleryConfig(object):
     }
 
  # 帮助文档地址，显示在web导航栏
-DOCUMENTATION_URL='https://github.com/tencentmusic/cube-studio/wiki'
-BUG_REPORT_URL = 'https://github.com/tencentmusic/cube-studio/issues/new'
-GIT_URL = 'https://github.com/tencentmusic/cube-studio/tree/master'
+DOCUMENTATION_URL=''
+BUG_REPORT_URL = ''
+GIT_URL = ''
 
 
 ROBOT_PERMISSION_ROLES=[]   # 角色黑名单

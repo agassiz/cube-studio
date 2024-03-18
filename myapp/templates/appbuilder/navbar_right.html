@@ -1,41 +1,4 @@
 
-
-{% set bug_report_url = appbuilder.app.config.get('BUG_REPORT_URL') %}
-{% set documentation_url = appbuilder.app.config.get('DOCUMENTATION_URL') %}
-{% set locale = session['locale'] %}
-{% if not locale %}
-    {% set locale = 'en' %}
-{% endif %}
-
-
-{% if documentation_url %}
-<li>
-  <a
-    tabindex="-1"
-    href="{{ documentation_url }}"
-    data-placement="bottom"
-    title="Documentation"
-    target="_blank"
-  >
-    <i class="fa fa-question-circle header-right-icon"></i>&nbsp;doc
-  </a>
-</li>
-{% endif %}
-{% if bug_report_url %}
-<li>
-  <a
-    tabindex="-1"
-    href="{{ bug_report_url }}"
-    data-placement="bottom"
-    title="Report a bug"
-    target="_blank"
-  >
-    <i class="fa fa-bug"></i>&nbsp;
-  </a>
-</li>
-{% endif %}
-
-
 {% if not current_user.is_anonymous %}
     <li class="dropdown">
       <a
