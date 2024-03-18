@@ -1,6 +1,6 @@
 # docker build -t agassiz/cube-kubeflow-dashboard:2024.03.18 -f install/docker/Dockerfile .
 
-FROM agassiz/cube-kubeflow-dashboard:base-python3.9-amd64-20231001
+FROM ccr.ccs.tencentyun.com/cube-studio/kubeflow-dashboard:base-python3.9-amd64-20231001
 
 RUN wget https://docker-76009.sz.gfp.tencent-cloud.com/github/cube-studio/aihub/deeplearning/aihub.zip && mkdir -p /cube-studio/aihub && unzip aihub.zip -d /cube-studio/aihub/ && rm aihub.zip
 
