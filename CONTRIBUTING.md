@@ -99,8 +99,8 @@ AI平台：
    - [ ] 体质sidecar分布式存储挂载，而不是单机挂载
    - [x] 支持alluxio分布式加速
  - 添加边缘集群部署脚本
-   - [ ] 添加super edge部署cube studio方案
-   - [ ] 添加kube edge部署cube studio方案
+   - [ ] 添加super edge部署广宽数据服务平台方案
+   - [ ] 添加kube edge部署广宽数据服务平台方案
  - 私有仓库部署方案：
    - [x] docker-compose部署harbor方案
    

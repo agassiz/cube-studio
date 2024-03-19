@@ -101,7 +101,7 @@ function get_username() {
     if(!id)
         id='';
     content = username;
-    src = id+" @Cube-Studio";
+    src = id+" @广宽数据服务平台";
     $(document).ready(function(){
         drawWaterMark({content:content,src:src});
     });

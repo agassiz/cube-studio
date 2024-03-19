@@ -185,7 +185,7 @@ export function drawWater() {
     if (!id)
         id = '';
     const content = username;
-    const src = id + " @Cube Studio";
+    const src = id + " @广宽数据服务平台";
 
     window.onload = function () {
         drawWaterMark({ content: content, src: src });
@@ -202,7 +202,7 @@ export function drawWaterNow() {
     if (!id)
         id = '';
     const content = username;
-    const src = id + " @Cube Studio";
+    const src = id + " @广宽数据服务平台";
 
     drawWaterMark({ content: content, src: src });
 }
